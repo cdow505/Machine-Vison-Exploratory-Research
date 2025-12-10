@@ -41,7 +41,8 @@ Non-Padded 3x3: MachineVisionCnnNotebookLargeNoPad3x3
 Non-Padded 5x5: MachineVisionCnnNotebookLargeNoPad5x5
 
 Non-Padded 7x7:MachineVisionCnnNotebookLargeNoPad7x7
-=====================================================
+
+_________________________________________
 7-Layer CNNs with an early stopper patience of 5, improved loss weights, and a scheduler with a patience of 3:
 
 Padded 3x3: MachineVisionCnnNotebookWeights
