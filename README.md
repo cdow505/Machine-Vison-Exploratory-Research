@@ -4,7 +4,7 @@ Note: not all of this code was written by me. I based some of my code off of oth
 
 
 I don't have all of the files from my intial optimization phase, but below I've provided an index for the ones that I do have, mapping the exact experiment that each Jupyter Notebook filename refers to.
-
+_______________________________________________________________________________________________________________
 Optimization Phase:
 A 7-layer CNN with an early stopper patience of 3, a 3x3 padded kernel, no scheduler, and no loss weights or weighted random sampler:
 MachineVisionCnnNotebookBaseline
@@ -25,7 +25,7 @@ A 7-layer CNN with an early stopper patience of 5, a scheduler with a patience o
 MachineVisionCnnNotebookKernel
 
 Note: this is not all of my optimization phase notebooks. I did some experiments before I started to save each experiment as a separate notebook file, so I don't have access to those.
-
+_______________________________________________________________________________________________________________
 Experimentation Phase:
 
 15-layer CNNs with an early stopper patience of 5, improved loss weights, and no scheduler:
@@ -37,6 +37,8 @@ Padded 7x7: MachineVisionCnnNotebookEnhancedAdaptivePool7by7
 Non-Padded 3x3: MachineVisionCnnNotebookLargeNoPad3x3
 Non-Padded 5x5: MachineVisionCnnNotebookLargeNoPad5x5
 Non-Padded 7x7:MachineVisionCnnNotebookLargeNoPad7x7
+
+
 
 7-Layer CNNs with an early stopper patience of 5, improved loss weights, and a scheduler with a patience of 3:
 
@@ -55,7 +57,7 @@ MachineVisionCNNResnet50NoTrain
 Model using intial Resnet-50 intialization with 5 classes, but trained for additional epochs until validation loss stopped improving with an early stopper patience of 5, and a scheduler with a patience of 3:
 MachineVisionCnResnet50Trained
 
-
+_______________________________________________________________________________________________________________
 
 References:
 1. Another example of a CNN used for pedestrian detection: 
