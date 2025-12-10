@@ -56,11 +56,12 @@ Non-Padded 3x3: MachineVisionCnnNotebookNoPad3x3
 Non-Padded 5x5: MachineVisionCnnNotebookNoPad5x5
 
 Non-Padded 7x7:MachineVisionCnnNotebookNoPad7x7
-
+________________________
 Pre-trained resnet-50 Model runs:
 Model just using intial Resnet-50 intialization with 5 classes and no additional training:
 
 MachineVisionCNNResnet50NoTrain
+
 
 Model using intial Resnet-50 intialization with 5 classes, but trained for additional epochs until validation loss stopped improving with an early stopper patience of 5, and a scheduler with a patience of 3:
 
